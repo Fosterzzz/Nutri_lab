@@ -42,7 +42,9 @@ python manage.py migrate
 
 Mude as configurações no settings
 ```
+EMAIL_HOST_USER = 'Coloque seu email aqui'
 ALLOWED_HOSTS = ['dominio.com']
+
 ```
 
 Modifique e escolha o banco de dados desejado. Opções:
