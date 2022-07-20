@@ -22,7 +22,18 @@ apt install python3-pip
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-
+Crie o ambiente virtual:
+```
+python -m venv venv
+ou
+python3 -m venv venv
+```
+Acesse o ambiente virtual criado:
+```
+Linux: source venv/bin/active
+Windows: .\venv\Scripts\active
+```
+Instale os pacotes python do projeto:
 ```
 pip install -r requirements.txt
 or
