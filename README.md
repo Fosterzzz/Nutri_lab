@@ -102,7 +102,7 @@ DATABASES = {
         'USER'    : 'test',                     # <-- Modifique essa linha
         'PASSWORD': 'Secret_1234',              # <-- Modifique essa linha
         'HOST'    : 'localhost',                # <-- Modifique essa linha
-        'PORT'    : '3306',
+        'PORT'    : '5432',
     }
 }
 ```
